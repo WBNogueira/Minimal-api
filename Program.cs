@@ -1,7 +1,8 @@
+using Microsoft.AspNetCore.Mvc;
 using MinimalApi.Infraestrutura.Db;
 using MinimalApi.DTOs;
 using Microsoft.EntityFrameworkCore;
-using MinimalApi.Dominio.Interfaces
+using MinimalApi.Dominio.Interfaces;
 using MinimalApi.Dominio.Servicos;
 
 var builder = WebApplication.CreateBuilder(args);
